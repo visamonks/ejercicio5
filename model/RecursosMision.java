@@ -46,3 +46,4 @@ public class RecursosMision {
         return "Energía: " + energiaDisponible + ", Datos pendientes: " + datosPendientes + ", Datos descargados: " + datosDescargados;
     }
 }
+
