@@ -3,7 +3,7 @@ package model;
 public class ModuloTierra extends Modulo {
     private double tasaDescarga;
 
-    public ModuloTierra(String id, String nombre, double salud, double costoConstruccion, double tasaDescarga) {
+    public ModuloTierra(int id, String nombre, double salud, double costoConstruccion, double tasaDescarga) {
         super(id, nombre, salud, costoConstruccion);
         this.tasaDescarga = tasaDescarga;
     }

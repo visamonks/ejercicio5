@@ -3,7 +3,7 @@ package model;
 public class ModuloEnergia extends Modulo {
     private double energiaGeneradaPorCiclo;
 
-    public ModuloEnergia(String id, String nombre, double salud, double costoConstruccion, double energiaGenerada) {
+    public ModuloEnergia(int id, String nombre, double salud, double costoConstruccion, double energiaGenerada) {
         super(id, nombre, salud, costoConstruccion);
         this.energiaGeneradaPorCiclo = energiaGenerada;
     }

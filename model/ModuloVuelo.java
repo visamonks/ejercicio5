@@ -3,7 +3,7 @@ package model;
 public class ModuloVuelo extends Modulo {
     private double datosGeneradosPorCiclo;
 
-    public ModuloVuelo(String id, String nombre, double salud, double costoConstruccion, double datosGenerados) {
+    public ModuloVuelo(int id, String nombre, double salud, double costoConstruccion, double datosGenerados) {
         super(id, nombre, salud, costoConstruccion);
         this.datosGeneradosPorCiclo = datosGenerados;
     }

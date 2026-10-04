@@ -1,19 +1,19 @@
 package model;
 
 public abstract class Modulo implements Comparable<Modulo> {
-    protected String id;
+    protected int id;
     protected String nombre;
     protected double salud;
     protected double costoConstruccion;
 
-    public Modulo(String id, String nombre, double salud, double costoConstruccion) {
+    public Modulo(int id, String nombre, double salud, double costoConstruccion) {
         this.id = id;
         this.nombre = nombre;
         this.salud = salud;
         this.costoConstruccion = costoConstruccion;
     }
 
-    public String getId() {
+    public int getId() {
         return id;
     }
 
